@@ -1,0 +1,30 @@
+/****
+COLORS:
+https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578
+*/
+
+[data-theme='holidays'] {
+    --color-primary: #bf4342;
+    --color-accent: #E29578;
+    --color-blue: #669bbc;
+    --color-white: #EDF6F9;
+    --color-green: #2c6e49;
+    --color-pink: #ffddd2;
+    --color-orange: #ff9b42;
+}
+
+body {
+    background: var(--color-pink);
+}
+
+
+/********* HERO **********/
+/********* HERO **********/
+/********* HERO **********/
+
+.hero-mesh {
+    background: url("https://foxtailbarns-venue.co.uk/wp-content/uploads/sites/8/2019/12/Wedding-Sparklers-1200x800.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
