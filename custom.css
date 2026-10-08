@@ -41,6 +41,10 @@ body {
 /********* NAVBAR **********/
 /********* NAVBAR **********/
 /********* NAVBAR **********/
+.site-nav-links {
+    color: var(--color-white);
+}
+
 .site-nav-brand {
     color: var(--color-primary);
     .is-nav-ready .site-nav.is-stuck {
@@ -49,3 +53,10 @@ body {
 }
 }
 
+.hero-cue {}
+
+
+/**** COUNTDOWN HELPERS *****/
+.p-right-6 {
+    padding-right: 6rem !important;
+}
