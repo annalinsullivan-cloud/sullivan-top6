@@ -4,7 +4,7 @@ https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578
 */
 
 [data-theme='holidays'] {
-    --color-primary: #c71f37;
+    --color-primary: #bf4342;
     --color-accent: #E29578;
     --color-blue: #669bbc;
     --color-white: #EDF6F9;
@@ -17,6 +17,16 @@ body {
     background: var(--color-pink);
 }
 
+/* BODY FONT */
+body, div, p {
+    font-family: "Playfair Display", serif;
+}
+
+/* HEADER FONT */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bitcount Ink", system-ui;
+    color: var(--color-primary);
+}
 
 /********* HERO **********/
 /********* HERO **********/
@@ -41,22 +51,11 @@ body {
 /********* NAVBAR **********/
 /********* NAVBAR **********/
 /********* NAVBAR **********/
-.site-nav-links {
-    color: var(--color-white);
-}
-
 .site-nav-brand {
     color: var(--color-primary);
+}
     .is-nav-ready .site-nav.is-stuck {
     background: color-mix(in oklab, var(--color-base-100) 88%, transparent);
     backdrop-filter: blur(10px);
 }
-}
 
-.hero-cue {}
-
-
-/**** COUNTDOWN HELPERS *****/
-.p-right-6 {
-    padding-right: 6rem !important;
-}
