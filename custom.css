@@ -24,8 +24,12 @@ body, div, p {
 
 /* HEADER FONT */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Bitcount Ink", system-ui;
+    font-family: "Sancreek", serif;
     color: var(--color-primary);
+}
+
+.entry-title {
+    color: var(--color-green);
 }
 
 /********* HERO **********/
